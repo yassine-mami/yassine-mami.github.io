@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    background: #0170bb; /* blue background */
+    color: white; /* white text color */
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+    font-size: 40px;
+}
+
+/* logo */
+.logo{
+    font-size: 1.5em;
+    color: #C6C5B9;
+    line-height: 50px;
+    padding-left: 30px;
+    font-weight: bold;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: #393D3F;
+    overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+    float: right;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+    color: rgb(8, 195, 36);
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+  display: none;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+.navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+section{
+    padding: 10px 50px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(photos/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main h2{
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #0170bb;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn{
+    color: #fff;
+    background-color: #3a6cf4;
+    font-size: 1.1em;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    height: 55px;
+}
+
+.main-btn:hover{
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #0170bb;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.my-project{
+    float: left;
+    margin: 0 50px;
+    width: 300px;
+}
+
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.7 ease;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+}
+
+.photos .hp{
+    width: 14em;
+    height: 13em;
+}
+
+.photos .css{
+    width: 240px;
+    height: 13.10em;
+}
+
+.information{
+    text-align: center;
+}
+
+.information h1{
+    color: #0170bb;
+}
